@@ -1,0 +1,48 @@
+{
+        "intents": [
+            {
+                "tag": "greetings",
+                "patterns": ["hi", "hello", "hey"],
+                "responses": ["Hello from SARAL DIAGNOSTICS, how can I help you today?"],
+                "context": ""
+            },
+            
+            {
+                "tag": "hours",
+                "patterns": ["what are your operating hours?", "when are you open?", "when can I visit?", "when do you close?"],
+                "responses": ["Please select a branch - Delhi or Noida."],
+                "context": ""
+            },
+            {
+                "tag": "options",
+                "patterns": ["how can you help me?", "what do you offer?", "what services do you provide?"],
+                "responses": ["You can tell me what's bothering you."],
+                "context": ""
+            },
+            {
+                "tag": "panels",
+                "patterns": ["are there any panels available?", "what panels do you offer?"],
+                "responses": ["Yes, please visit this link - https://saraldiagnostics.com/our-centers"],
+                "context": ""
+            },
+            {
+                "tag": "payments",
+                "patterns": ["payhments me","what paytments do you people accept?","I wanna pay how do I go about it ?","what are the payment options available?", "how can I pay?", "what forms of payment do you accept?"],
+                "responses": ["We accept Cash, Credit/Debit Cards, Paytm and NetBanking."],
+                "context": ""
+            },
+            {
+                "tag": "ambulance",
+                "patterns": ["is ambulance service available?", "do you provide pick and drop facility?", "what are the ambulance service hours?"],
+                "responses": ["Yes, we provide pick and drop facility for MRI, CT and Nuclear Medicine Investigations depending on the patient need and availability of ambulance."],
+                "context": ""
+            },
+            {
+                "tag": "tests",
+                "patterns": ["is home collection available for lab tests?", "how can I schedule a home collection for my lab test samples?"],
+                "responses": ["Yes, we provide home collection facility for lab tests. Prior requisition for the same has to be taken by calling us at our centre."],
+                "context": ""
+            }
+        ]
+    }
+    
